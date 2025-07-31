@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoDelight - Indulge Your Senses</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">ChocoDelight</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="hero-content">
+                <h1>Indulge Your Senses</h1>
+                <p>Experience the rich, velvety taste of premium chocolate.</p>
+                <a href="#products" class="button">Explore Our Chocolates</a>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <div class="container">
+                <h2>Our Exquisite Collection</h2>
+
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <img src="https://placehold.co/400x300/4a3a2a/f0f0f0?text=Dark+Chocolate" alt="Dark Chocolate Bar">
+                        <h3>Rich Dark Chocolate</h3>
+                        <p>A bold and intense experience with 70% cocoa. Perfect for true connoisseurs.</p>
+                        <button>View Details</button>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <img src="https://placehold.co/400x300/5a4a3a/f0f0f0?text=Milk+Chocolate" alt="Milk Chocolate Bar">
+                        <h3>Creamy Milk Chocolate</h3>
+                        <p>Smooth and sweet, a classic favorite for all ages. Melts in your mouth.</p>
+                        <button>View Details</button>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <img src="https://placehold.co/400x300/6a5a4a/f0f0f0?text=White+Chocolate" alt="White Chocolate Bar">
+                        <h3>Velvet White Chocolate</h3>
+                        <p>Luxuriously smooth and sweet, a delightful treat for those who love a milder taste.</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About ChocoDelight</h2>
+                <p>
+                    At ChocoDelight, we are passionate about crafting the finest chocolates using only the highest quality cocoa beans sourced from sustainable farms around the world. Our master chocolatiers blend tradition with innovation to bring you an unparalleled taste experience.
+                </p>
+                <p>
+                    Every piece of chocolate is made with love and dedication, ensuring a moment of pure bliss with every bite. Join us on a journey of flavor and discover your new favorite indulgence.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have questions or want to place a custom order? We'd love to hear from you!</p>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:info@chocodelight.com">info@chocodelight.com</a></p>
+                    <p>Phone: <span> +880 0193******</span></p>
+                    <p>Address: <span>123 Chocolate Lane, Sweet City, ctg 210</span></p>
+                </div>
+                <form id="contactForm">
+                    <div>
+                        <label for="name">YName</label>
+                        <input type="text" id="name" name="name" placeholder="A" required>
+                    </div>
+                    <div>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                    </div>
+                    <div>
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Type message here..."></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ChocoDelight. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Message Box HTML -->
+    <div id="messageBox" class="message-box-overlay">
+        <div class="message-box-content">
+            <h4 id="messageBoxTitle"></h4>
+            <p id="messageBoxText"></p>
+            <button id="messageBoxClose">OK</button>
+        </div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
